@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="images/shittykitty-logo.png">
+  <link rel="shortcut icon" type="image/jpg" href="images/shittykitty-logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/utlities.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>ShittyKitty - The first poop/cat hybrid on BSC</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header py-1">
+    <div class="container flex">
+      <a href="index-2.html"><img class="logo" src="images/shittykitty-logo.png" alt=""></a>
+    </div>
+
+    <div class="container" id="specialHamboorgerRoganFinanceDiv">
+      <button class="ham">
+        <i class="menuIcon fas fa-bars"></i>
+        <i class="xIcon fas fa-times"></i>
+      </button>
+      <div class="menu text-center">
+        <a href="index-2.html"><img class="logo" src="images/shittykitty-logo.png" alt=""></a>
+        <ul>
+          <li><a onclick="closeMenu()" href="/">Home</a></li>
+          <li><a onclick="closeMenu()" href="/#about">Our Story</a></li>
+          <li><a onclick="closeMenu()" href="/#tokenomics">Tokenomics</a>
+          <li><a onclick="closeMenu()" href="/#faq">FAQ</a></li>
+        </ul>
+        <a target="_blank" href="https://twitter.com/shittykittybsc"><i class="fab fa-twitter fa-lg"></i></a>
+        <a target="_blank" href="https://t.me/shittykittybsc"><i class="fab fa-telegram-plane fa-lg"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container flex py-5">
+        <div class="hero-text">
+          <h1>Let's Get Shitty!</h1>
+          <h3>ShittyKitty is the first poop/cat hybrid on Binance Smart Chain.</h3>
+          <a target="_blank"
+            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8aC4894594557BaebcE686C685cbce2b93344453"><button
+              class="btn">Buy Now</button></a>
+          <a target="_blank" href="https://poocoin.app/tokens/0x8aC4894594557BaebcE686C685cbce2b93344453"><button
+              class="btn btn-2">View Chart</button></a>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container grid py-5">
+        <div class="about-text">
+          <h2>ShittyKitty</h2>
+          <div>
+            ShittyKitty is the first poop/cat hybrid on BSC.
+            <br />
+            <br />
+            🚾 Community-driven.
+            <br />
+            🔄 Reward holders with frictionless reflection.
+            <br />
+            🔒 Liquidity locked and "SAFU".
+            <br />
+            💩 ShittyKitty is a new endangered species of cat encompassing the spirit of Binance Smart Chain.
+            <br />
+            🐱 Here at ShittyKitty, our kitties stay shitty, and our kitties are rewarded for holding.
+          </div>
+          <a target="_blank"
+            href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8aC4894594557BaebcE686C685cbce2b93344453"><button
+              class="btn">Buy Now</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- tokenomics -->
+
+    <section class="tokenomics" id="tokenomics">
+      <div class="container grid py-5">
+        <div class="card">
+          <canvas id="myChart" width="100%" height="100%"></canvas>
+        </div>
+        <div>
+          <h2>Tokenomics</h2>
+          <p>There will be a 10% tax on all transactions, here's the breakdown:</p>
+          <ul>
+            <li>5% Distributed back to holders</li>
+            <li>5% Automatically goes back into liquidity, ever-increasing price floor is accelerated</li>
+          </ul>
+          <h2>ROADMAP</h2>
+          <ul>
+            <li>Launch</li>
+            <li>Develop the roadmap</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq -->
+    <section class="faq py-5" id="faq">
+      <div class="container">
+        <h2 class="text-center">FAQ</h2>
+        <div class="grid">
+          <div class="faq-item">
+            <h3>How do I purchase ShittyKitty?</h3>
+            <p>See the top of the page.</p>
+          </div>
+          <div class="faq-item">
+            <h3>How do I know it won't rug?</h3>
+            <p>Liq is locked for ~3 months and will soon be extended. Ownership has been renounced.</p>
+          </div>
+          <div class="faq-item">
+            <h3>Do I use PancakeSwap V1 or V2?</h3>
+            <p>This project is only available to buy on V2.</p>
+          </div>
+          <div class="faq-item">
+            <h3>I sent my ShittyKitty to a different wallet and now I have less, why?</h3>
+            <p>The tax fee still applies to transfers!</p>
+          </div>
+          <div class="faq-item">
+            <h3>Does my Kitty stay Shitty?</h3>
+            <p>Yes and no, in a literal sense it stays shitty because it's shittykitty. We will consider rebranding to
+              shittydiamondkitty past $100m Market Cap.</p>
+          </div>
+          <div class="faq-item">
+            <h3>I heard something about NFTs?</h3>
+            <p>Shhhhh.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer py-4" id="contact">
+    <section class="container text-center">
+      <a target="_blank" href="https://twitter.com/shittykittybsc"><i class="fab fa-twitter fa-lg"></i></a>
+      <a target="_blank" href="https://t.me/shittykittybsc"><i class="fab fa-telegram-plane fa-lg"></i></a>
+      <p>Copyright © ShittyKitty 2021</p>
+      <a href="/"><img class="logo" src="images/shittykitty-logo.png" alt=""></a>
+
+    </section>
+  </footer>
+
+</body>
+
+<script>
+
+  let myChart = document.getElementById('myChart').getContext('2d');
+
+  let tokenChart = new Chart(myChart, {
+    type: 'pie',
+    data: {
+      labels: ['5% Distributed back to holders', '5% Automatically goes back into liquidity'],
+      datasets: [{
+        label: 'tokenomics',
+        data: [
+          5,
+          5
+        ],
+        backgroundColor: [
+          '#7ed957',
+          '#ffde59'
+
+        ]
+      }],
+
+    },
+    options: {
+
+    },
+
+  });
+
+  //hamburger menu
+
+  var menu = document.querySelector(".menu")
+  var ham = document.querySelector(".ham")
+  var xIcon = document.querySelector(".xIcon")
+  var menuIcon = document.querySelector(".menuIcon")
+
+  ham.addEventListener("click", toggleMenu)
+
+  function toggleMenu() {
+    if (menu.classList.contains("showMenu")) {
+      menu.classList.remove("showMenu");
+      xIcon.style.display = "none";
+      menuIcon.style.display = "block";
+    } else {
+      menu.classList.add("showMenu");
+      xIcon.style.display = "block";
+      menuIcon.style.display = "none";
+    }
+  }
+
+  var menuLinks = document.querySelectorAll(".menuLink")
+
+  menuLinks.forEach(
+    function (menuLink) {
+      menuLink.addEventListener("click", toggleMenu)
+    }
+  )
+
+  function closeMenu() {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  }
+
+</script>
+
+</html>
